@@ -2,10 +2,10 @@ import { useState } from 'react';
 import { assets } from '../../assets/assets';
 import './Add.css';
 import axios from "axios";
+import { toast } from 'react-toastify';
 
-const Add = () => {
+const Add = ({url}) => {
 
-    const url = "http://localhost:4000";
     const [image, setImage] = useState(false);
     const [data, setData] = useState({
         name: "",
@@ -39,8 +39,9 @@ const Add = () => {
                 category:"Salad"
             })
             setImage(false);
+            toast.success(response.data.message);
         }else{
-            console.log(response.data.message);
+             toast.error(response.data.message);
         }
     }
 
@@ -83,7 +84,7 @@ const Add = () => {
                 </div>
                 <div className="add-price flex-col">
                     <p>Product Price</p>
-                    <input onChange={onChangeHandler} type="Number" name='price' placeholder='₹50'/>
+                    <input onChange={onChangeHandler} value={data.price} type="Number" name='price' placeholder='₹50'/>
                 </div>
             </div>
 
