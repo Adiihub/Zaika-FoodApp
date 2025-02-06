@@ -6,3 +6,4 @@ export const connectDB = async () => {
     // .connect("mongodb+srv://aditi71:aditi71@cluster0.5o0dg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     .then(() => console.log("DB Connected"));
 };
+  
