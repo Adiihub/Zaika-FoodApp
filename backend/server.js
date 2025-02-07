@@ -24,7 +24,7 @@ app.use("/images",express.static('uploads'));
 app.use("/api/user", userRouter);
 
 
-app.get('/', (req, res) => {
+app.get('/abcd', (req, res) => {
     res.send("API Working");
 })
 
