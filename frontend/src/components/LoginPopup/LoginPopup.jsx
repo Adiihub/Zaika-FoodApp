@@ -14,7 +14,7 @@ const LoginPopup = ({ setShowLogin }) => {
     password: "",
   });
 
-  // creating onchangehandler so it take the data from input field and save it in state variable
+  // creating onchangeHandler so it take the data from input field and save it in state variable
   const onChangeHandler = (event) => {
     const name = event.target.name;
     const value = event.target.value;
@@ -41,6 +41,7 @@ const LoginPopup = ({ setShowLogin }) => {
     } else {
       alert(response.data.message);
     }
+
   };
 
   return (
