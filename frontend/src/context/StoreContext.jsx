@@ -67,7 +67,7 @@ const StoreContextProvider = (props) => {
   // so that after refreshing page the cart data will stored 
   const loadCartData = async (token) => {
     const response = await axios.post(url+'/api/cart/get', {}, {headers: {token}});
-    console.log("Cart Data Fetched:", response.data.cartData);
+    // console.log("Cart Data Fetched:", response.data.cartData);
     setCartItems(response.data.cartData);
   }
 
