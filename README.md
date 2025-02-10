@@ -10,58 +10,13 @@ ZaikaBite is a full-stack food ordering web application that allows users to bro
 - **Hosting:** Render
 
 ## 🔗 Live Demo
-- **Frontend:** [Live App](https://zaikabite-frontend.onrender.com)  
-- **Admin Panel:** [Admin Dashboard](https://zaikabite-admin.onrender.com)  
-- **Backend API:** [API Docs](https://zaikabite-backend.onrender.com)
+- **Frontend:** [Live App](https://zaikabite-frontend.onrender.com){:target="_blank"}  
+- **Admin Panel:** [Admin Dashboard](https://zaikabite-admin.onrender.com){:target="_blank"}  
+- **Backend API:** [API Docs](https://zaikabite-backend.onrender.com){:target="_blank"}  
 
 ## 🎯 Features
 ✅ User Authentication (Signup/Login)  
 ✅ Browse Food Items & Add to Cart  
-✅ Secure Online Payments
+✅ Secure Online Payments  
 ✅ Real-Time Order Status Updates  
-✅ Admin Panel for Managing Orders & Food Items  
-
-<! --## ⚡ Installation & Setup
-Clone the repository:
-```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
-```
-
-### 📌 Backend Setup
-1. Navigate to the `backend` folder and install dependencies:
-   ```bash
-   cd backend
-   npm install
-   ```
-2. Set up environment variables in a `.env` file:
-   ```plaintext
-   MONGO_URI=your_mongodb_uri
-   JWT_SECRET=your_secret_key
-   STRIPE_SECRET_KEY=your_stripe_secret
-   ```
-3. Start the backend server:
-   ```bash
-   npm start
-   ```
-
-### 📌 Frontend Setup
-1. Navigate to the `frontend` folder and install dependencies:
-   ```bash
-   cd frontend
-   npm install
-   ```
-2. Set up environment variables in a `.env` file:
-   ```plaintext
-   REACT_APP_API_URL=http://localhost:5000
-   ```
-3. Start the frontend application:
-   ```bash
-   npm start
-   ```
-
-## 🤝 Contributing
-Feel free to fork this repository, open issues, and submit pull requests to improve the project!
-
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE). -->
+✅ Admin Panel for Managing Orders & Food Items 
