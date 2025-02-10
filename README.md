@@ -1,4 +1,4 @@
-# 🍽️ FoodEase - Full Stack Food Ordering App
+# 🍽️ ZaikaBite - Full Stack Food Ordering App
 
 ## 🚀 Overview
 FoodEase is a full-stack food ordering web application that allows users to browse menus, add items to their cart, place orders using **Stripe payment gateway**, and track order status in real-time. The platform includes a **frontend website**, **admin panel**, and **backend server**, making it a complete solution for online food ordering.
