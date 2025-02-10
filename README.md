@@ -1,28 +1,27 @@
 # 🍽️ ZaikaBite - Full Stack Food Ordering App
 
 ## 🚀 Overview
-ZaikaBite is a full-stack food ordering web application that allows users to browse menus, add items to their cart, place orders using **Stripe payment gateway**, and track order status in real-time. The platform includes a **frontend website**, **admin panel**, and **backend server**, making it a complete solution for online food ordering.
+ZaikaBite is a full-stack food ordering web application that allows users to browse menus, add items to their cart, place orders using **payment gateway**, and track order status in real-time. The platform includes a **frontend website**, **admin panel**, and **backend server**, making it a complete solution for online food ordering.
 
 ## 🛠️ Tech Stack
-- **Frontend:** React.js, Redux, Tailwind CSS
+- **Frontend:** React.js, Context-API, CSS
 - **Backend:** Node.js, Express.js, MongoDB
-- **Authentication:** JWT (JSON Web Token)
-- **Payment Integration:** Stripe
-- **Hosting:** (Add Hosting Details - e.g., Vercel, Heroku, Render)
+- **Authentication:** JWT (JSON Web Token) 
+- **Hosting:** Render
 
 ## 🔗 Live Demo
-- **Frontend:** [Live App](#)  
-- **Admin Panel:** [Admin Dashboard](#)  
-- **Backend API:** [API Docs](#) (if available)
+- **Frontend:** [Live App](#https://zaikabite-frontend.onrender.com)  
+- **Admin Panel:** [Admin Dashboard](#https://zaikabite-admin.onrender.com)  
+- **Backend API:** [API Docs](#https://zaikabite-backend.onrender.com)
 
 ## 🎯 Features
 ✅ User Authentication (Signup/Login)  
 ✅ Browse Food Items & Add to Cart  
-✅ Secure Online Payments via Stripe  
+✅ Secure Online Payments
 ✅ Real-Time Order Status Updates  
 ✅ Admin Panel for Managing Orders & Food Items  
 
-## ⚡ Installation & Setup
+<! --## ⚡ Installation & Setup
 Clone the repository:
 ```bash
 git clone https://github.com/your-username/your-repo.git
@@ -65,4 +64,4 @@ cd your-repo
 Feel free to fork this repository, open issues, and submit pull requests to improve the project!
 
 ## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the [MIT License](LICENSE). -->
