@@ -10,9 +10,9 @@ ZaikaBite is a full-stack food ordering web application that allows users to bro
 - **Hosting:** Render
 
 ## 🔗 Live Demo 
-- **Frontend:** [Live App](https://zaikabite-frontend.onrender.com){:target="_blank"}  
-- **Admin Panel:** [Admin Dashboard](https://zaikabite-admin.onrender.com){:target="_blank"}  
-- **Backend API:** [API Docs](https://zaikabite-backend.onrender.com){:target="_blank"}  
+- **Frontend:** [Live App](https://zaikabite-frontend.onrender.com)
+- **Admin Panel:** [Admin Dashboard](https://zaikabite-admin.onrender.com)   
+- **Backend API:** [API Docs](https://zaikabite-backend.onrender.com)   
 
 ## 🎯 Features
 ✅ User Authentication (Signup/Login)  
